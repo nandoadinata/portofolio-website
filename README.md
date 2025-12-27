@@ -8,7 +8,7 @@ Personal portfolio website showcasing my web projects and skills.
 - JavaScript
 
 ## 🌐 Live Demo
-👉 https://nandodinata.github.io/portofolio-website/
+👉 (https://nandoadinata.github.io/portofolio-website/)
 
 ## 📂 Sections
 - About Me
