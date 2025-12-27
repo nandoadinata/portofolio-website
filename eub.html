@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluasi Umpan Balik (EUB)</title>
+<link rel="icon" type="image/png" href="pict/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #ffffff;
+}
+
+/* ===== SECTION ===== */
+#eub {
+    min-height: 100vh;
+    padding: 120px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eub-container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ===== ICON DIC ===== */
+.dic-icon {
+    margin-bottom: 10px;
+	margin-top: -50px;
+}
+
+.dic-icon img {
+    width: 125px;
+    height: auto;
+    filter: drop-shadow(0 10px 25px rgba(255, 204, 0, 0.35));
+    transition: transform 0.4s ease;
+}
+
+.dic-icon img:hover {
+    transform: scale(1.08);
+}
+
+
+/* Title */
+.eub-title {
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.eub-subtitle {
+    font-size: 1.2rem;
+    color: #cbd5f5;
+    max-width: 760px;
+    margin: 0 auto 90px;
+}
+
+/* Grid */
+.eub-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
+
+/* ===== CARD ===== */
+.eub-card {
+    position: relative;
+    padding: 65px 40px;
+    border-radius: 28px;
+    background: linear-gradient(135deg,
+        rgba(255,255,255,0.15),
+        rgba(255,255,255,0.05)
+    );
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 45px 100px rgba(0,0,0,0.6);
+    transition: all 0.45s ease;
+    overflow: hidden;
+}
+
+.eub-card:hover {
+    transform: translateY(-14px) scale(1.02);
+    box-shadow: 0 65px 140px rgba(255,204,0,0.25);
+}
+
+/* Badge */
+.eub-badge {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    padding: 6px 16px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ffcc00, #e8a200);
+    color: #111827;
+    z-index: 2;
+}
+
+/* ===== MODEL IMAGE ===== */
+.eub-model {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255, 204, 0, 0.6);
+    box-shadow: 0 12px 30px rgba(255, 204, 0, 0.35);
+}
+
+.eub-model img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text */
+.eub-card h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.eub-card p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #e5e7eb;
+    max-width: 520px;
+    margin: 0 auto 45px;
+}
+
+/* Button */
+.eub-btn {
+    display: inline-block;
+    padding: 16px 46px;
+    border-radius: 60px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ffcc00, #e8a200);
+    color: #111827;
+    box-shadow: 0 18px 45px rgba(255,204,0,0.45);
+    transition: 0.3s ease;
+}
+
+.eub-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 26px 60px rgba(255,204,0,0.6);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .eub-title {
+        font-size: 2.4rem;
+    }
+
+    .eub-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section id="eub">
+    <div class="eub-container">
+	
+	<!-- ICON DIC -->
+<div class="dic-icon">
+    <img src="pict/logoo.png" alt="Delta International College">
+</div>
+
+        <h1 class="eub-title">Evaluasi Umpan Balik (EUB)</h1>
+        <p class="eub-subtitle">
+            Suara peserta didik menjadi dasar peningkatan mutu akademik dan layanan kampus.
+        </p>
+
+        <div class="eub-grid">
+
+            <!-- ANGKATAN 2025 -->
+            <div class="eub-card">
+                <span class="eub-badge">AKTIF</span>
+
+                <div class="eub-model">
+                    <img src="pict/model-25.png" alt="Mahasiswa Angkatan 2025">
+                </div>
+
+                <h3>Angkatan 2025</h3>
+                <p>
+                    Form evaluasi umpan balik
+                    untuk mahasiswa angkatan 2025.
+                </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScGfl7xgQtSTBKzc3jRMdN54mgSf8D70_PnO5wNrau0hpD4RQ/viewform?usp=header"
+                   target="_blank"
+                   class="eub-btn">
+                    Isi Evaluasi
+                </a>
+            </div>
+
+            <!-- ANGKATAN 2024 -->
+            <div class="eub-card">
+                <span class="eub-badge">AKTIF</span>
+
+                <div class="eub-model">
+                    <img src="pict/model-24.png" alt="Mahasiswa Angkatan 2024">
+                </div>
+
+                <h3>Angkatan 2024</h3>
+                <p>
+                    Form evaluasi umpan balik
+                    untuk mahasiswa angkatan 2024.
+                </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScd02DCjw3w-TQm7RnC_OqfnA_gLoSezwf5ws74GDIG2sSLCw/viewform?usp=header"
+                   target="_blank"
+                   class="eub-btn">
+                    Isi Evaluasi
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
